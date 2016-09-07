@@ -1,0 +1,127 @@
+*,
+*::after,
+*::before {
+box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.title {
+  float: left;
+  width: 50%;
+  line-height: 50px;
+  padding: 0 10px;
+}
+
+.nav-bar {
+  background: #06D6A0;
+  overflow: auto;
+}
+
+.nav-bar > h1 {
+  margin: 0;
+  height: 50px;
+}
+
+.nav-list {
+  float: right;
+  width: 50%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  line-height: 50px;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.main {
+  max-width: 900px;
+  margin:auto;
+}
+
+.picheader{
+  background: #26547C;
+  overflow: auto;
+}
+.pic {
+  float: left;
+  width: 40%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.text {
+  background: #FFD166;
+  margin-top: -20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.welcome {
+  text-align: center;
+  color: white;
+}
+
+.products{
+background: #F2F2F2;
+overflow: auto;
+margin-top: -20px;
+
+}
+
+.funpara {
+  background: #26547C;
+  margin-top: -20px;
+}
+
+.funvaluemeow {
+  text-align: center;
+  color: red;
+
+}
+
+ul li.fun {
+  display: inline-block;
+  width: 30%;
+  padding-top: 20px;
+
+}
+
+.paragraph {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+
+}
+ul li {
+  list-style-type: none;
+}
+
+.tablepic {
+  float: left;
+  padding: 10px;
+  width: 33%;
+
+}
+
+ul li img {
+  border: 3px solid black;
+}
+
+footer {
+  text-align: right;
+  background: #06D6A0;
+
+}
